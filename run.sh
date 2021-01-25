@@ -3,4 +3,4 @@ hexo g
 hexo d
 git add -A
 git commit -m "$1"
-git push -u origin +gh-page
+git push origin main

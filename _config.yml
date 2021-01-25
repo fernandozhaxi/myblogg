@@ -101,12 +101,10 @@ theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-- type: git
-  repository:
-    github: git@github.com:fernandozhaxi/fernandozhaxi.github.io.git
-  branch: gh-page
-
+# deploy:
+# - type: git
+#   repository:
+#     github: git@github.com:fernandozhaxi/fernandozhaxi.github.io.git,main
 
 live2d:
   enable: true
