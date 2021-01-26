@@ -7,6 +7,7 @@ branches:
   only:
     - main
 script:
+  - hexo clean
   - hexo g
 deploy:
   provider: pages
