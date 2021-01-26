@@ -7,8 +7,8 @@ branches:
   only:
     - main
 script:
-  - hexo clean
-  - hexo g
+  - hexo clean # 清理上次构建？
+  - hexo g # 生成静态文件
 deploy:
   provider: pages
   skip-cleanup: true
